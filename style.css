@@ -1,31 +1,136 @@
-h1 {
-  font-size: 20px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
   font-family: Arial, sans-serif;
+  border-top: 10px solid #1098ad;
+}
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;*/
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+nav {
+  font-size: 16px;
+}
+article {
+  margin-bottom: 60px;
+}
+.post-header {
+  margin-bottom: 30px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /*padding-bottom:  50px;
+  padding-top: 50px;*/
+  padding: 50px 0;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
-  font-size: 26px;
-  font-family: sans-serif;
+  font-size: 40px;
+
+  margin-bottom: 30px;
 }
 
 h3 {
-  font-size: 22px;
-  font-family: Arial, sans-serif;
+  font-size: 30px;
+
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 h4 {
   font-size: 20px;
-  font-family: Arial, sans-serif;
+
   text-transform: uppercase;
   text-align: center;
 }
 p {
   font-size: 18px;
-  font-family: Arial, sans-serif;
-  list-style: 1.5;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 18px;
-  font-family: Arial, sans-serif;
+
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+#author {
+  font-size: 14px;
+  font-family: italic;
+}
+
+#copyright {
+  font-size: 14px;
+  font-family: italic;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
+}
+/*.first-li {
+  font-weight: bold;*/
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  /*color: #fd0797;*/
+}
+
+/*styling links*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  /* font-weight: bold;
+  text-decoration: underline orangered;*/
+}
+
+a:active {
+  color: black;
+  font-style: italic;
 }
